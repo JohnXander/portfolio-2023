@@ -1,0 +1,143 @@
+{
+  "projects": [
+    {
+      "id": "hw",
+      "title": "Heal Wheel",
+      "date": "Dec 2022",
+      "description": "An app that offers a 360 degree view of your current life situation.",
+      "image": "",
+      "video": "",
+      "repoSlug": "heal-wheel",
+      "website": "https://heal-wheel.vercel.app",
+      "tech": [
+        "TypeScript",
+        "NextJS",
+        "TailwindCSS",
+        "Prisma",
+        "tRPC",
+        "Vercel"
+      ]
+    },
+    {
+      "id": "kb",
+      "title": "Kubud",
+      "date": "Dec 2022",
+      "description": "An app that generates recipes based on the ingredients you have in your cupboard.",
+      "image": "",
+      "video": "",
+      "repoSlug": "kubud",
+      "website": "https://kubud-johnxander.vercel.app",
+      "tech": [
+        "TypeScript",
+        "NextJS",
+        "TailwindCSS",
+        "Prisma",
+        "tRPC",
+        "Vercel"
+      ]
+    },
+    {
+      "id": "stb",
+      "title": "Stop the Bus",
+      "date": "Oct 2022",
+      "description": "An app version of the popular TEFL classroom game.",
+      "image": "",
+      "video": "",
+      "repoSlug": "stop-the-bus-client",
+      "serverRepoSlug": "stop-the-bus-server",
+      "tech": [
+        "JavaScript",
+        "React",
+        "ExpressJS",
+        "NodeJS",
+        "Prisma",
+        "PostgreSQL",
+        "CSS"
+      ]
+    },
+    {
+      "id": "cm",
+      "title": "Cohort Manager",
+      "date": "Oct 2022",
+      "description": "Team project at Boolean UK.",
+      "image": "",
+      "video": "",
+      "repoSlug": "team-dev-client-c6",
+      "serverRepoSlug": "team-dev-server-c6",
+      "website": "https://cohortmanager.netlify.app",
+      "tech": [
+        "JavaScript",
+        "React",
+        "ExpressJS",
+        "NodeJS",
+        "Prisma",
+        "PostgreSQL",
+        "Material UI"
+      ]
+    },
+    {
+      "id": "sm",
+      "title": "Scratch Match",
+      "date": "Aug 2022",
+      "description": "A scratch map app where you can network with other travellers.",
+      "image": "",
+      "video": "",
+      "repoSlug": "scratch-match",
+      "tech": ["JavaScript", "React", "CSS"]
+    },
+    {
+      "id": "jxp",
+      "title": "JX Problems",
+      "date": "Jul 2022",
+      "description": "10 JavaScript katas created for Codewars with testing.",
+      "image": "",
+      "video": "",
+      "repoSlug": "jx-problems",
+      "tech": ["JavaScript", "Jasmine"]
+    },
+    {
+      "id": "mp",
+      "title": "Mypography",
+      "date": "Jul 2022",
+      "description": "An app that turns your handwriting into a font.",
+      "image": "",
+      "video": "",
+      "repoSlug": "mypography",
+      "website": "https://johnxander.github.io/mypography/",
+      "tech": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": "dpf",
+      "title": "Digital Picture Frame",
+      "date": "Jun 2022",
+      "description": "An app version of a digital picture frame built as an anniversary present for my girlfriend.",
+      "image": "",
+      "video": "",
+      "repoSlug": "digital-picture-frame",
+      "website": "https://johnxander.github.io/digital-picture-frame/",
+      "tech": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": "bm",
+      "title": "Bangman",
+      "date": "May 2022",
+      "description": "A parody app version of Hangman built as a joke for my coding classmates (one of them had a cat called Bang Bang).",
+      "image": "",
+      "video": "",
+      "repoSlug": "bang-bang-man",
+      "website": "https://johnxander.github.io/bang-bang-man/",
+      "tech": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": "brnp",
+      "title": "Boolean Random Name Picker",
+      "date": "May 2022",
+      "description": "A random name picker app built to help my tech coach randomly select students from the class.",
+      "image": "",
+      "video": "",
+      "repoSlug": "boolean-random-name-picker",
+      "website": "https://johnxander.github.io/boolean-random-name-picker/",
+      "tech": ["JavaScript", "HTML", "CSS"]
+    }
+  ]
+}
