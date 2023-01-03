@@ -4,8 +4,9 @@ import { Projects } from "../src/components/projects/projects";
 
 export default function Home({ data }: any) {
   return (
-    <main className="home_body">
+    <main>
       <Hero />
+      <h1 className="section_title">Projects</h1>
       <Projects data={data} />
     </main>
   )
