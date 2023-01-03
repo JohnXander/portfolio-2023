@@ -13,12 +13,14 @@ export const HomePage = () => {
                 </div>
                 <div className="hero_images">
                     <Image
+                        className="programmer"
                         src={programmerIcon}
                         width={150}
                         height={150}
                         alt={"programmer"}
                     />
                     <Image
+                        className="screen"
                         src={screenIcon}
                         width={200}
                         height={200}
