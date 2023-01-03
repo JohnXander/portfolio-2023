@@ -17,7 +17,7 @@ export const Projects = ({ data }: any) => {
                             <Image
                                 className="card_img"
                                 src={'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'}
-                                width={250}
+                                width={300}
                                 height={150}
                                 alt={proj.title}
                             />
@@ -28,8 +28,7 @@ export const Projects = ({ data }: any) => {
                                 <p>{proj.description}</p>
                             </div>
                             <div className="card_btns">
-                                <button>Hi</button>
-                                <button>Hi</button>
+                                <button>Find Out More</button>
                             </div>
                         </div>
                     </Link>
