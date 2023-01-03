@@ -22,8 +22,8 @@ export const HomePage = () => {
                     <Image
                         className="screen"
                         src={screenIcon}
-                        width={200}
-                        height={200}
+                        width={250}
+                        height={250}
                         alt={"screen"}
                     />
                 </div>
