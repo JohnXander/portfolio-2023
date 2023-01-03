@@ -1,11 +1,9 @@
-import { HomePage } from '../src/components/home/homepage'
+import { Hero } from "../src/components/hero/hero";
 
 export default function Home() {
   return (
-    <div>
-
-      <HomePage />
-
-    </div>
+    <main className="home_body">
+      <Hero />
+    </main>
   )
 }
