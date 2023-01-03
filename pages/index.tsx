@@ -10,12 +10,9 @@ export default function Home() {
       </Head>
 
       <main>
-        sdkchb
+        Main
       </main>
-
-      <footer>
-        dkfjvb
-      </footer>
+      
     </div>
   )
 }
