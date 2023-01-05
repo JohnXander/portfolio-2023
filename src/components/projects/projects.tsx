@@ -1,5 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 export const Projects = ({ data }: any) => { 
 
@@ -26,10 +28,14 @@ export const Projects = ({ data }: any) => {
                             <div className="card_text">
                                 <h2>{proj.title}</h2>
                                 {idx === 0 && <span>Coming soon</span>}
+                                <p className="date">{proj.date}</p>
                                 <p>{proj.description}</p>
                             </div>
                             <div className="card_btns">
-                                <button>Find Out More</button>
+                                <button>
+                                        <p>Find out more</p>
+                                        <FontAwesomeIcon width={10} icon={faChevronRight} />
+                                </button>
                             </div>
                         </div>
                     </Link>

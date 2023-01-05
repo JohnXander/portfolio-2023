@@ -1,5 +1,4 @@
 import { Footer } from '../footer/footer'
-import { Header } from '../header/header'
 import { Poppins } from '@next/font/google'
 
 const poppins = Poppins({
@@ -10,7 +9,6 @@ const poppins = Poppins({
 const MainLayout = ({ children }: any) => {
   return (
       <>
-          <Header />
           <main className={poppins.className}>{children}</main>
           <Footer />
       </>

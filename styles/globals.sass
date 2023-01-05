@@ -63,7 +63,8 @@ body
     span
       color: #d05459
       position: absolute
-      top: 14.5rem
+      top: 14.2rem
+      font-weight: bold
     &:hover
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1)
     .card_img
@@ -79,8 +80,20 @@ body
       .card_text
         h2
           line-height: 1.75rem
-      // .card_btns
-      //   border: 3px solid blue
+        .date
+          line-height: 0rem
+      .card_btns
+        button
+          display: flex
+          align-items: center
+          gap: 0.25rem
+          background-color: #333
+          color: #fff
+          padding: 0 1.25rem
+          cursor: pointer
+          border-radius: 25px
+          &:hover
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1)
 
 footer
   background-color: #333
