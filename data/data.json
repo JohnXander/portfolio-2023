@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "id": "js",
+      "title": "Job Search App",
+      "date": "Dec 2022",
+      "description": "Tinder for software developer positions.",
+      "video": "../assets/videos/heal-wheel.mp4",
+      "repoSlug": "heal-wheel",
+      "website": "https://google.com",
+      "tech": [
+        "TypeScript",
+        "NextJS",
+        "TailwindCSS",
+        "Prisma",
+        "tRPC",
+        "Vercel"
+      ]
+    },
+    {
       "id": "hw",
       "title": "Heal Wheel",
       "date": "Dec 2022",
@@ -121,7 +138,7 @@
     },
     {
       "id": "brnp",
-      "title": "Boolean Random Name Picker",
+      "title": "Random Name Picker",
       "date": "May 2022",
       "description": "A random name picker app built to help my tech coach randomly select students from the class.",
       "video": "",

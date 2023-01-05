@@ -50,10 +50,20 @@ body
   .card
     background-color: #fff
     color: #333
-    width: 300px
+    width: 200px
     height: 450px
     text-decoration: none
     border-radius: 10px
+    position: relative
+    &:first-child
+      pointer-events: none
+      p, button
+        filter: blur(3px)
+        -webkit-filter: blur(3px)
+    span
+      color: #d05459
+      position: absolute
+      top: 14.5rem
     &:hover
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1)
     .card_img
@@ -66,8 +76,9 @@ body
       display: flex
       flex-direction: column
       justify-content: space-between
-      // .card_text
-      //   border: 3px solid red
+      .card_text
+        h2
+          line-height: 1.75rem
       // .card_btns
       //   border: 3px solid blue
 

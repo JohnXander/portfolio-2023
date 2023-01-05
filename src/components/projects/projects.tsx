@@ -7,7 +7,7 @@ export const Projects = ({ data }: any) => {
 
     return (
         <div className="projects">
-            {data.map((proj: any) => {
+            {data.map((proj: any, idx: number) => {
                 return (
                     <Link
                         className="card"
@@ -17,7 +17,7 @@ export const Projects = ({ data }: any) => {
                             <Image
                                 className="card_img"
                                 src={'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'}
-                                width={300}
+                                width={200}
                                 height={150}
                                 alt={proj.title}
                             />
@@ -25,6 +25,7 @@ export const Projects = ({ data }: any) => {
                         <div className="card_content">
                             <div className="card_text">
                                 <h2>{proj.title}</h2>
+                                {idx === 0 && <span>Coming soon</span>}
                                 <p>{proj.description}</p>
                             </div>
                             <div className="card_btns">
